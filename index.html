@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rossi Lattoneria H24 | Artigiani a Ravenna dal 1952</title>
+    <meta name="description" content="Rossi Lattoneria H24: esperti in coperture, grondaie e lavorazione lamiere nel ravennate. Qualità artigiana e soluzioni moderne dal 1952.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+    <header>
+        <nav id="navbar">
+            <div class="logo-container">
+                <img src="immagini x lattoneria/Logo lattoneria.png?v=2" alt="Rossi Lattoneria Logo" id="logo">
+                <span class="brand-name">Rossi Lattoneria H24</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chi-siamo">Chi siamo</a></li>
+                <li><a href="#lavori">I nostri lavori</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="reveal-text">Lattoneria artigiana, protezione che dura nel tempo.</h1>
+                <p class="hero-subheader">Dal 1952 al servizio di case e imprese in Romagna.</p>
+                <div class="hero-actions">
+                    <a href="#contatti" class="btn-primary">Contattaci subito!</a>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <!-- Chi Siamo Section -->
+        <section id="chi-siamo" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">La Nostra Storia</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Siamo la Famiglia Rossi, attiva dal 1952 nella pianura ravennate come bottega artigiana specializzata nella <strong>lavorazione della lamiera</strong>.<br><br>
+                        Da oltre settant’anni realizziamo <strong>coperture</strong>, <strong>grondaie</strong> e <strong>sistemi di smaltimento delle acque piovane</strong> in rame, alluminio e acciaio.<br><br>
+                        Operiamo nel territorio ravennate con soluzioni specifiche contro umidità e salsedine, seguendo ogni lavoro dalla consulenza alla realizzazione per garantire <strong>qualità</strong>, <strong>precisione</strong> e <strong>durata nel tempo</strong>.</p>
+                        
+                        <button id="readMoreBtn" class="btn-secondary" style="margin-top: 15px; border-color: var(--primary-color);">Scopri di più</button>
+                        
+                        <div id="moreText" style="display: none; margin-top: 20px; transition: var(--transition);">
+                            <p>Siamo la Famiglia Rossi e la nostra storia inizia nel 1952, nel cuore della pianura ravennate, quando da una piccola bottega artigiana abbiamo iniziato a lavorare la lamiera con passione e precisione.<br>
+                            In un periodo di ricostruzione, il nostro lavoro è diventato un punto di riferimento per chi aveva bisogno di soluzioni affidabili per coperture, grondaie e sistemi di smaltimento delle acque piovane.<br><br>
+
+                            Negli anni siamo cresciuti insieme al territorio, affiancando famiglie e imprese con interventi su misura e una presenza costante nei cantieri.<br>
+                            Il passaggio generazionale ha portato nuove competenze e tecnologie, mantenendo però intatti i valori che ci contraddistinguono da sempre: cura del dettaglio, serietà e responsabilità.<br><br>
+
+                            Abbiamo ampliato le lavorazioni introducendo materiali come rame, alluminio e acciaio, sviluppando soluzioni sempre più efficienti e durature, adatte sia al residenziale che all’industriale.<br><br>
+
+                            Operiamo principalmente nell’area ravennate, dove conosciamo bene le esigenze costruttive legate a umidità e salsedine, e realizziamo interventi pensati per resistere nel tempo.<br><br>
+
+                            Oggi seguiamo ogni progetto in tutte le sue fasi, dalla consulenza iniziale alla realizzazione finale, garantendo qualità dei materiali e affidabilità del risultato.<br>
+                            Per noi essere lattonieri significa continuare a portare avanti un mestiere fatto di esperienza, innovazione e attenzione verso chi si affida al nostro lavoro.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-carousel-container">
+                        <div class="carousel" id="history-carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-slide active">
+                                    <div class="slide-image-wrapper">
+                                        <img src="immagini x lattoneria/storica foto azienda lattoneria.png" alt="Storia Azienda anni 50">
+                                    </div>
+                                    <span class="slide-caption">Le nostre origini (1952)</span>
+                                </div>
+                                <div class="carousel-slide">
+                                    <div class="slide-image-wrapper">
+                                        <img src="immagini x lattoneria/lavoro diretto anni 2000.png" alt="Lavoro diretto anni 2000">
+                                    </div>
+                                    <span class="slide-caption">Cantiere anni 2000</span>
+                                </div>
+                                <div class="carousel-slide">
+                                    <div class="slide-image-wrapper">
+                                        <img src="immagini x lattoneria/signore sul tetto anni 2000.png" alt="Intervento su tetto anni 2000">
+                                    </div>
+                                    <span class="slide-caption">Professionalità in quota</span>
+                                </div>
+                            </div>
+                            <div class="carousel-controls">
+                                <button class="carousel-btn prev" id="prevBtn">&larr;</button>
+                                <button class="carousel-btn next" id="nextBtn">&rarr;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- I Nostri Lavori Section -->
+        <section id="lavori" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title">I Nostri Lavori</h2>
+                <p class="section-subtitle">Scorri le linee centrali per vedere i risultati dei nostri interventi di ristrutturazione.</p>
+                
+                <div class="works-grid">
+                    <!-- Comparison 1 -->
+                    <div class="comparison-card">
+                        <div class="comparison-slider" data-compare>
+                            <img src="immagini x lattoneria/foto casa prima 1.png" alt="Prima" class="img-before">
+                            <div class="comparison-after" style="width: 50%;">
+                                <img src="immagini x lattoneria/foto casa dopo 1.png" alt="Dopo" class="img-after">
+                            </div>
+                            <div class="slider-handle"></div>
+                        </div>
+                        <div class="comparison-label">Intervento residenziale 1</div>
+                    </div>
+
+                    <!-- Comparison 2 -->
+                    <div class="comparison-card">
+                        <div class="comparison-slider" data-compare>
+                            <img src="immagini x lattoneria/foto casa orima 1.png" alt="Prima" class="img-before">
+                            <div class="comparison-after" style="width: 50%;">
+                                <img src="immagini x lattoneria/foto casa dopo 2.png" alt="Dopo" class="img-after">
+                            </div>
+                            <div class="slider-handle"></div>
+                        </div>
+                        <div class="comparison-label">Intervento residenziale 2</div>
+                    </div>
+                </div>
+
+                <div class="services-catalog">
+                    <h3 class="catalog-title">Cosa facciamo?</h3>
+                    <div class="catalog-slider">
+                        <!-- Lavoro 1 -->
+                        <div class="catalog-item">
+                            <img src="immagini x lattoneria/Lavoro latt 1.png" alt="Grondaie e pluviali">
+                            <div class="catalog-info">
+                                <h4>Realizzazione e sostituzione grondaie e pluviali</h4>
+                                <p>Installazione di sistemi per la raccolta e lo smaltimento delle acque piovane.</p>
+                            </div>
+                        </div>
+                        <!-- Lavoro 2 -->
+                        <div class="catalog-item">
+                            <img src="immagini x lattoneria/Lavoro latt 2.png" alt="Coperture metalliche">
+                            <div class="catalog-info">
+                                <h4>Coperture metalliche</h4>
+                                <p>Posa e rifacimento di coperture in lamiera, rame, alluminio o acciaio.</p>
+                            </div>
+                        </div>
+                        <!-- Lavoro 3 -->
+                        <div class="catalog-item">
+                            <img src="immagini x lattoneria/Lavoro latt 3.png" alt="Scossaline e raccordi">
+                            <div class="catalog-info">
+                                <h4>Scossaline e raccordi</h4>
+                                <p>Realizzazione di elementi di raccordo tra tetto, muri e camini per evitare infiltrazioni.</p>
+                            </div>
+                        </div>
+                        <!-- Lavoro 4 -->
+                        <div class="catalog-item">
+                            <img src="immagini x lattoneria/Lavoro latt 4.png" alt="Impermeabilizzazioni">
+                            <div class="catalog-info">
+                                <h4>Impermeabilizzazioni e risanamenti</h4>
+                                <p>Interventi su tetti esistenti per eliminare perdite e infiltrazioni.</p>
+                            </div>
+                        </div>
+                        <!-- Lavoro 5 -->
+                        <div class="catalog-item">
+                            <img src="immagini x lattoneria/Lavoro latt 5.png" alt="Lattoneria su misura">
+                            <div class="catalog-info">
+                                <h4>Lattoneria su misura</h4>
+                                <p>Produzione e installazione di elementi personalizzati (canali, converse, coperture particolari).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contatti Section -->
+        <section id="contatti" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Contattaci</h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">&#9990;</div>
+                        <h3>Telefono</h3>
+                        <a href="tel:+393491998881" class="contact-link">+39 349 199 8881</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">&#9993;</div>
+                        <h3>Email</h3>
+                        <a href="mailto:rossilattoneriah24@gmail.com" class="contact-link">rossilattoneriah24@gmail.com</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">&#128205;</div>
+                        <h3>Indirizzo</h3>
+                        <p id="address">via macoda 13, ravenna 48120</p>
+                        <button id="copyBtn" class="btn-secondary">Copia indirizzo</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-bar">
+            <p>P.IVA: 01234567890 | Rossi Lattoneria H24 &copy; 2024</p>
+            <p class="demo-disclaimer">Sito realizzato a scopo dimostrativo per un’azienda fittizia.</p>
+        </div>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+</body>
+</html>
